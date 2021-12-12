@@ -3,7 +3,7 @@
 
 let mybutton = document.getElementById("myBtn");
 
-window.onscroll = () => { scrollFunction(); };
+window.onscroll = function () { scrollFunction(); };
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -38,7 +38,7 @@ setInterval(displayIntro,100);
 
 // hobbies
 
-let hobbies = ["travelling to new places", "cooking different meals"]
+let hobbies = [ "learning new things","travelling to new places", "cooking different meals"]
 
 let i = 0;
 

@@ -14,7 +14,7 @@ body{
     height: 100vh;
     min-height: 500px;
     color: white; position: relative; 
-    background-image: url('./resourses/images/undraw_working_late_re_0c3y.svg');
+    background-image: url('/resourses/images/undraw_working_late_re_0c3y.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
